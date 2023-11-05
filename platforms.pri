@@ -51,7 +51,7 @@ macx {
     DEFINES += __apple__
     CONFIG += x86_64
     CONFIG -= x86
-    QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.12
+    QMAKE_MACOSX_DEPLOYMENT_TARGET = 10.15
     QMAKE_CXXFLAGS += -fvisibility=hidden
     QMAKE_CXXFLAGS += -Wno-address-of-packed-member
     CONFIG += ltcg
